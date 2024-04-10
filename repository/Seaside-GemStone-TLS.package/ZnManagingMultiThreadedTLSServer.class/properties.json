@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnGemServerManagingMultiThreadedServer",
+	"category" : "Seaside-GemStone-TLS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ "tlsConfig" ],
+	"name" : "ZnManagingMultiThreadedTLSServer",
+	"type" : "normal"
+}

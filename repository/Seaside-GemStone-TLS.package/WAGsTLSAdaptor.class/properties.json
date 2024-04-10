@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAGsZincAdaptor",
+	"category" : "Seaside-GemStone-TLS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ "tlsConfig" ],
+	"name" : "WAGsTLSAdaptor",
+	"type" : "normal"
+}

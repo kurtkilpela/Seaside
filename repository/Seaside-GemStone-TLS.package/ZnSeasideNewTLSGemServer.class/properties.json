@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnSeasideNewGemServer",
+	"category" : "Seaside-GemStone-TLS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ "tlsConfig" ],
+	"name" : "ZnSeasideNewTLSGemServer",
+	"type" : "normal"
+}

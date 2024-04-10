@@ -78,11 +78,13 @@ baselinegemstone: spec
         package: 'Seaside-Tests-GemStone-Flow'
           with: [ spec requires: #('Seaside-Tests-Flow') ];
         package: 'Seaside-Tests-GemStone-Functional'
-          with: [ spec requires: #('Seaside-Tests-Functional') ].
+          with: [ spec requires: #('Seaside-Tests-Functional') ];
+        package: 'Seaside-GemStone-TLS'.
      spec
         group: 'CI' with: #('Seaside-Tools-Core' 'FastCGI' 'Zinc');
         group: 'Development' with: #('Seaside-GemStone-Basic-Development');
-        group: 'Production' with: #('Seaside-GemStone-Tools-Production') ].
+        group: 'Production' with: #('Seaside-GemStone-Tools-Production');
+        group: 'TLS' with: #('Seaside-GemStone-TLS')  ].
   spec
     for: #(#'gs3.0.x' #'gs3.1.x')
     do: [ 

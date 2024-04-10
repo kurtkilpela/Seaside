@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Seaside-GemStone-TLS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ "certPath", "keyPath", "keyPassphrasePath", "cipherList" ],
+	"name" : "ZnGsTLSConfiguration",
+	"type" : "normal"
+}
